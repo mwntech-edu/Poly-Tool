@@ -130,7 +130,14 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="최윤규.h" />
+<<<<<<< Updated upstream
+
+    <ClInclude Include="정한용.h" />
+
+
+=======
+    <ClInclude Include="박희정.h" />
+>>>>>>> Stashed changes
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

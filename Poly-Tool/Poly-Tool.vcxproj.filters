@@ -20,8 +20,15 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="최윤규.h">
+<<<<<<< Updated upstream
+
+    <ClInclude Include="정한용.h">
+      <Filter>헤더 파일</Filter>
+
+=======
+    <ClInclude Include="박희정.h">
       <Filter>소스 파일</Filter>
+>>>>>>> Stashed changes
     </ClInclude>
   </ItemGroup>
 </Project>
