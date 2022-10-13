@@ -7,6 +7,10 @@ cout << "hello world!!" << endl;
 
 cout << "Jeong han yong" << endl;
 
+	cout << "Hello! world!!" << endl;
+
+
+	cout << "choi yun kyu" << endl;
 
 	return 0;
 }
