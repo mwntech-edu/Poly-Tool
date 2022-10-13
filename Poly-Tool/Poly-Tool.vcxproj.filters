@@ -20,7 +20,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="agfechoi.h">
+    <ClInclude Include="최윤규.h">
       <Filter>소스 파일</Filter>
     </ClInclude>
   </ItemGroup>
