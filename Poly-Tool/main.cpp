@@ -9,9 +9,5 @@ int main() {
 	cout << "Jeong han yong" << endl;
 	cout << "heejung park" << endl << endl;
 
-	// Work...
-
-	// Work3..............
-
 	return 0;
 }
