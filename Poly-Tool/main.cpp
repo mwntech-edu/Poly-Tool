@@ -4,7 +4,7 @@ using namespace std;
 int main() {
 	cout << "hello world!!" << endl;
 
-	cout << "Park hee jung" << endl;
+	cout << "branch" << endl;
 
 	return 0;
 }
