@@ -1,14 +1,12 @@
 # Poly-Tool
 
 ## Coding Rule
-* Class
-* variable
+* ClassName
+* variableName
 * _memberVariable
-* Function()
+* FunctionName()
 
 ## Namespace
-PolyTool
+POLY_TOOLs
 
-//edit
-그냥 내가 수정해봄
 ## 증강현실시스템과
