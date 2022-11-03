@@ -7,6 +7,7 @@ int main() {
 	fs::path test("./test");
 
 	Traverse printAll(Action::PRINT, "./");
+	cout << "./ ";
 	printAll.DepthFirstRecursive("./");
 
 	return 0;

@@ -28,14 +28,14 @@ namespace  POLY_TOOLS {
 			return true;
 		}
 		virtual int FileAction(fs::path a_path) {
-			std::cout << a_path << std::endl;
+			//std::cout << a_path << std::endl;
 			return 0;
 		}
 		virtual bool FolderCondition() {
 			return true;
 		}
 		virtual int FolderAction(fs::path a_path) {
-			std::cout << "[" << a_path << "]" << std::endl; // [] 안에 출력
+			std::cout << "[" << a_path << "] "; // << std::endl; // [] 안에 출력
 			return 1;
 		}
 	};
@@ -51,9 +51,9 @@ namespace  POLY_TOOLS {
 			// common : c:\a\b
 			// des dir : \bak
 			// src local : \c ~c\d\e
-			// cur - common
+			//        cur - common
 			// des : c:\a\b\bak\c\d\e
-			// common + des dir + src local
+			//        common + des dir + src local
 
 	public:
 		Traverse(Action a_mode, fs::path a_startPath = "./") : _mode(a_mode), _startPath(a_startPath) {
@@ -105,6 +105,7 @@ namespace  POLY_TOOLS {
 				}
 				itr++;
 			}
+			std::cout << "^ ";
 			return;
 		}
 	};
